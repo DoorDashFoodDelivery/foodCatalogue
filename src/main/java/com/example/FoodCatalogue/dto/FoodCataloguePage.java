@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class FoodCataloguePage {
 
-	private List<FoodItem> foodItem;
+	private List<FoodItem> foodItemList;
 	
 	private Restaurent restaurent;
 }
