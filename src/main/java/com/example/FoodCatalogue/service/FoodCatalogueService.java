@@ -48,7 +48,7 @@ public class FoodCatalogueService {
 
 	private List<FoodItem> fetchFoodItemList(Integer restaurantId) {
 		
-		return foodItemRepo.findRestaurantById(restaurantId);
+		return foodItemRepo.findByRestaurantId(restaurantId);
 	}
 	
 }
